@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "hu.mbhbank.banking",
+    "sha256_cert_fingerprints":
+    ["4A:1E:51:F1:91:41:D8:AB:45:43:A9:3F:81:F0:85:95:A2:F5:D9:C7:21:4E:AD:B4:4B:41:B6:02:44:56:88:3F"]
+  }
+}]
