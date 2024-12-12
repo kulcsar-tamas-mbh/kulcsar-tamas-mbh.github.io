@@ -1,9 +1,28 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "hu.mbhbank.banking",
-    "sha256_cert_fingerprints":
-    ["4A:1E:51:F1:91:41:D8:AB:45:43:A9:3F:81:F0:85:95:A2:F5:D9:C7:21:4E:AD:B4:4B:41:B6:02:44:56:88:3F"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dashlane.dashlanepasskeydemo",
+      "sha256_cert_fingerprints": [
+        "18:13:11:08:4C:82:89:EB:7D:2C:14:BC:CB:2B:05:1F:02:C7:FA:01:CE:5E:4B:92:E3:15:41:DD:E1:A4:47:DF"
+      ]
+    }
+  },
+   {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dashlane.dashlanepasskeydemo.dev",
+      "sha256_cert_fingerprints": [
+        "18:13:11:08:4C:82:89:EB:7D:2C:14:BC:CB:2B:05:1F:02:C7:FA:01:CE:5E:4B:92:E3:15:41:DD:E1:A4:47:DF"
+      ]
+    }
   }
-}]
+]
